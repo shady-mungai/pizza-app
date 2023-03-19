@@ -1,24 +1,32 @@
-# README
+# PIZZA API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- This application is powered by rails to create an API of pizzas and restaurants
+- The application displays a many to many relationship btw restaurants and pizzas
 
+
+## Requirements
 Things you may want to cover:
 
-* Ruby version
+- Application runs on ruby version
+```bash
+ruby 2.7.4
+```
 
-* System dependencies
+- Before running the app run,to set up all the required gems from the gemfile
+```bash
+bundle install
+```
+- To set up the database we have to run migrations and populate the db using seed data
+```bash
+rails db:migrate db:seed
+```
+- To run the the application using the server run 
+```bash
+rails s
+```
 
-* Configuration
+## License
+- Application licenced by Apache 2.0
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Author
+Shadrack Mungai - Backend Developer
