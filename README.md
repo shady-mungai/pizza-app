@@ -2,6 +2,10 @@
 
 - This application is powered by rails to create an API of pizzas and restaurants
 - The application displays a many to many relationship btw restaurants and pizzas
+- Deployed application
+```bash
+https://pizza-application.onrender.com
+```
 
 
 ## Requirements
